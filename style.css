@@ -40,6 +40,18 @@ main{
 	height: 60vh;
 	border:1px solid black;
 }
+main .bloco-principal{
+	width:100%;
+	background:red;
+}
+main .noticia{
+	width:80%;
+	background:#ccc;
+	display:flex;
+}
+main .noticia img{
+	width:200px;
+}
 aside{
 	width: 20%;
 	height: 60vh;
