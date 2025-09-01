@@ -2,8 +2,8 @@
 header{
 	width: 100%;
 	height: 20vh;
-    	display:flex;
-    	justify-content:center;
+    display:flex;
+    justify-content:center;
 	align-items:center;
 }
 header .logo{
@@ -68,7 +68,6 @@ main .descricao p{
 }
 main .grid-3{
 	display:flex;
-	justify-content:space-around;
 	height:300px;
 }
 main .grid-3 .coluna{
@@ -76,7 +75,11 @@ main .grid-3 .coluna{
 	border:1px solid black;
 }
 main .grid-3 .coluna img{
-	width:100%;
+	width:80%;
+}
+main .grid-3 .coluna h3{
+    background:lightblue;
+    color:white;
 }
 main descricao a{
 	background:lightgreen;
@@ -92,4 +95,4 @@ footer{
 	width: 100%;
 	height: 20vh;
 	background: black;
-}									px30303
+}
