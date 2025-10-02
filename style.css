@@ -151,3 +151,14 @@ footer p{
     color:white;
     
 }
+footer .redes div img{
+    width:40px;
+    margin:5px;
+}
+footer .redes div{
+    color:#fff;
+}
+footer .redes div{
+    display:flex;
+    align-items:center;
+}
