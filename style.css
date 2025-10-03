@@ -169,6 +169,12 @@ footer .redes div{
 }
 @media screen and (max-width:870px){
     main .grid-3 .coluna{
-	width: 98%;
+	    width: 98%;
+    }
+    aside{
+        display:none;
+    }
+    main{
+        width:100%;
     }
 }
