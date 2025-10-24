@@ -221,6 +221,18 @@ footer .redes div{
 		justify-content: center;
 	}
 }
-footer .footer-gridt{
-     background:blue;
+.formulario form input[type='submit']{
+     background:pink;
+}
+.formulario form input[type='tel']{
+     color:darkblue;
+     background:violet;
+}
+.formulario form input[type='text']{
+     background:violet;
+     color:darkblue;
+}
+.formulario form textarea{
+     background:violet;
+     color:darkblue;
 }
