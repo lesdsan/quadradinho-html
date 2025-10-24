@@ -36,8 +36,6 @@ div.content{
      flex-wrap:wrap;
      width:1320px;
      margin:0 auto;
-     border:1px solid black;
-
 }
 main{
 	width: 80%;
@@ -132,19 +130,28 @@ footer form{
 }
 footer form input[type='text']{
 	height:30px;
-	background:white;
+	background:lightblue;
 	border:0;
 	margin-bottom:5px;
 	width:100%;
+     color:darkblue;
 }
 footer form input[type='submit']{
-	background: blue;
+	background: pink;
 	color:white;
 	padding:7px 15px;
 	border:0;
 }
 footer form input[type='submit']:hover{
+	background:violet;
+}
+footer form input[type='tel']{
 	background:lightblue;
+     color:darkblue;
+}
+footer form textarea{
+	background:lightblue;
+     color:darkblue;
 }
 footer .footer-grid{
     margin:10px;
@@ -178,6 +185,15 @@ footer .redes div{
      width:800px;
      margin:0 auto;
 }
+#sobre .galeria{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+}
+#sobre .galeria img{
+     width:300px;
+     margin:5px;
+}
 @media screen and (max-width:1108px){
     main .grid-3 .coluna{
 	width: 47%;
@@ -204,4 +220,7 @@ footer .redes div{
 		display: flex;
 		justify-content: center;
 	}
+}
+footer .footer-gridt{
+     background:blue;
 }
