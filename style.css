@@ -32,10 +32,10 @@ header ul li a:hover{
 	color: #fff;
 }
 div.content{
-     display:flex;
-     flex-wrap:wrap;
-     width:1320px;
-     margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    width: 1320px;
+    margin:0 auto;
 }
 main{
 	width: 80%;
@@ -68,7 +68,7 @@ main .grid-3{
 	display: flex;
 	padding: 15px;
 	text-align: center;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 }
 main .grid-3 .coluna{
 	width: 31%;
@@ -99,6 +99,8 @@ main .grid-3 .coluna a{
 main .grid-3 .coluna a:hover{
 	background: blue;
 }
+
+
 aside{
 	width: 20%;
 }
@@ -115,99 +117,110 @@ aside a:hover img{
 footer{
 	width: 100%;
 	background: black;
-	display:flex;
-	padding:20px;
+	display: flex;
+	padding: 20px;
 }	
 footer h2{
-	font-size:26px;
-	color:darkred;
-	text-transform:uppercase;
+	font-size: 26px;
+	color: yellow;
+	text-transform: uppercase;
 }
 footer form{
-	border:1px solid white;
-	display:flex;
-	flex-direction:column;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
 }
 footer form input[type='text']{
-	height:30px;
-	background:lightblue;
-	border:0;
-	margin-bottom:5px;
-	width:100%;
-     color:darkblue;
+	height: 40px;
+	background: white;
+	border: 0;
+	margin-bottom: 5px;
+	width: 100%;
 }
 footer form input[type='submit']{
-	background: pink;
-	color:white;
-	padding:7px 15px;
-	border:0;
+	background: blue;
+	color: white;
+	padding: 7px 15px;
+	border: 0;
 }
 footer form input[type='submit']:hover{
-	background:violet;
-}
-footer form input[type='tel']{
-	background:lightblue;
-     color:darkblue;
-}
-footer form textarea{
-	background:lightblue;
-     color:darkblue;
+	background: red;
 }
 footer .footer-grid{
-    margin:10px;
-    width:33%;
+	margin: 10px;
+	width: 33%;
 }
 footer p{
-    color:white;
-    
+	color: white;
 }
 footer .redes div img{
-    width:40px;
-    margin:5px;
+	width: 40px;
+	margin: 5px;
 }
-footer .redes div{
-    color:#fff;
+footer .redes div a{
+	color: #fff;
 }
-footer .redes div{
-    display:flex;
-    align-items:center;
+footer .redes div a{
+	display: flex;
+	align-items: center;
 }
 #sobre h1{
-     text-align:center;
-     color:red;
-     width:100%;
-     margin-bottom:25px;
+	text-align: center;
+	color: red;
+	width: 100%;
+	margin-bottom: 25px;
 }
 #sobre p{
-     line-height:22px;
-     text-align:center;
-     font-size:20px;
-     width:800px;
-     margin:0 auto;
+	line-height: 22px;
+	text-align: center;
+	font-size: 20px;
+	width: 800px;
+	margin: 0 auto;
 }
 #sobre .galeria{
-     display:flex;
-     flex-wrap:wrap;
-     justify-content:center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 #sobre .galeria img{
-     width:300px;
-     margin:5px;
+	width: 300px;
+	margin: 5px;
 }
-@media screen and (max-width:1108px){
-    main .grid-3 .coluna{
-	width: 47%;
-    }
+
+#contato form{
+	width: 800px;
+	background: #eee;
+	padding: 40px;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
 }
-@media screen and (max-width:870px){
-    main .grid-3 .coluna{
-	    width: 98%;
-    }
-    aside{
-        display:none;
-    }
-    main{
-        width:100%;
+#contato form input, #contato form textarea{
+	height: 40px;
+	border: 0;
+	box-shadow: 1px 1px 3px 1px #00000030;
+	margin: 5px;
+	border-radius: 7px;
+
+	padding: 5px;
+}
+
+
+
+@media screen and (max-width: 1108px){
+	main .grid-3 .coluna{
+		width: 47%;
+	}
+}
+@media screen and (max-width: 870px){
+	main .grid-3 .coluna{
+		width: 98%;
+	}
+	aside{
+		display: none;
+	}
+	main{
+		width: 100%;
 	}
 	footer{
 		flex-direction: column;
@@ -220,19 +233,4 @@ footer .redes div{
 		display: flex;
 		justify-content: center;
 	}
-}
-.formulario form input[type='submit']{
-     background:pink;
-}
-.formulario form input[type='tel']{
-     color:darkblue;
-     background:violet;
-}
-.formulario form input[type='text']{
-     background:violet;
-     color:darkblue;
-}
-.formulario form textarea{
-     background:violet;
-     color:darkblue;
 }
